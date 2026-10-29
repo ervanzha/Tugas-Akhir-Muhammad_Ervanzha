@@ -1,0 +1,19 @@
+No,Skenario,QoS,Queue,Payload (Byte),Jumlah Node,Durasi Analisis (s),Paket Dikirim,Paket Diterima,Paket Hilang,Packet Loss (%),Laju Kirim per Node (paket/s),Latency Min (ms),Latency Rata-rata (ms),Latency Median (ms),Std Deviasi (ms),Latency P95 (ms),Latency Max (ms),Paket Latency Negatif (%),Keterangan
+1,R-Q5-P112,Reliable,5,112,7,305,21233,21233,0,0.0,9.93,-12.62,10.2,7.04,23.17,25.9,974.84,11.84,
+2,R-Q5-P512,Reliable,5,512,7,304,20908,20908,0,0.0,9.84,-5.43,26.23,20.15,34.69,60.87,1668.65,1.63,
+3,R-Q5-P1024,Reliable,5,1024,7,297,19661,19656,5,0.025,9.45,-9.93,34.97,11.22,87.53,117.13,3802.72,5.98,
+4,R-Q20-P112,Reliable,20,112,7,299,20466,20466,0,0.0,9.78,-6.67,16.88,11.45,38.98,33.34,1901.13,3.0,
+5,R-Q20-P512,Reliable,20,512,7,294,20025,20025,0,0.0,9.72,-10.59,18.82,11.58,45.26,45.44,1449.61,5.09,
+6,R-Q20-P1024,Reliable,20,1024,7,295,20080,20080,0,0.0,9.74,-6.74,20.5,12.19,43.5,52.69,1640.79,3.03,
+7,R-Q100-P112,Reliable,100,112,7,313,21268,21268,0,0.0,9.71,-10.05,35.79,10.97,69.66,150.44,1625.6,5.64,
+8,R-Q100-P512,Reliable,100,512,7,298,19379,19379,0,0.0,9.3,-7.22,33.4,14.05,79.33,85.6,2307.19,3.14,
+9,R-Q100-P1024,Reliable,100,1024,7,292,19642,19638,4,0.02,9.61,-6.97,24.31,14.83,79.71,52.87,4845.55,1.69,
+10,BE-Q5-P112,Best Effort,5,112,7,292,20462,20378,84,0.411,10.0,-11.13,32.92,10.97,55.28,122.76,1313.72,6.88,
+11,BE-Q5-P512,Best Effort,5,512,0,-,-,0,-,100.0,-,-,-,-,-,-,-,-,"Tidak ada paket diterima (pesan > MTU 512 B, Best Effort tanpa fragmentasi)"
+12,BE-Q5-P1024,Best Effort,5,1024,0,-,-,0,-,100.0,-,-,-,-,-,-,-,-,"Tidak ada paket diterima (pesan > MTU 512 B, Best Effort tanpa fragmentasi)"
+13,BE-Q20-P112,Best Effort,20,112,7,295,20673,20597,76,0.368,10.0,-11.13,10.38,7.78,16.09,27.75,445.95,14.39,
+14,BE-Q20-P512,Best Effort,20,512,0,-,-,0,-,100.0,-,-,-,-,-,-,-,-,"Tidak ada paket diterima (pesan > MTU 512 B, Best Effort tanpa fragmentasi)"
+15,BE-Q20-P1024,Best Effort,20,1024,0,-,-,0,-,100.0,-,-,-,-,-,-,-,-,"Tidak ada paket diterima (pesan > MTU 512 B, Best Effort tanpa fragmentasi)"
+16,BE-Q100-P112,Best Effort,100,112,7,299,20907,20840,67,0.32,10.0,-8.54,13.14,9.47,15.88,33.39,355.23,5.22,
+17,BE-Q100-P512,Best Effort,100,512,0,-,-,0,-,100.0,-,-,-,-,-,-,-,-,"Tidak ada paket diterima (pesan > MTU 512 B, Best Effort tanpa fragmentasi)"
+18,BE-Q100-P1024,Best Effort,100,1024,0,-,-,0,-,100.0,-,-,-,-,-,-,-,-,"Tidak ada paket diterima (pesan > MTU 512 B, Best Effort tanpa fragmentasi)"
